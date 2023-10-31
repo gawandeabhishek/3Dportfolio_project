@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { SectionWrapper, MotionWrap } from '../hoc';
+import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 
@@ -58,4 +58,4 @@ const Feedbacks = () => {
   )
 }
 
-export default SectionWrapper(MotionWrap(Feedbacks, ""));
+export default SectionWrapper(Feedbacks, "");

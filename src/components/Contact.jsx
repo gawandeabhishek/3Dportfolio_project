@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
-import { SectionWrapper, MotionWrap } from '../hoc';
+import { SectionWrapper } from '../hoc';
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
@@ -125,4 +125,4 @@ const Contact = () => {
   )
 }
 
-export default SectionWrapper(MotionWrap(Contact, "contact"));
+export default SectionWrapper(Contact, "contact");

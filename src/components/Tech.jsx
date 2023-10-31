@@ -1,5 +1,5 @@
 import { BallCanvas } from "./canvas";
-import { SectionWrapper, MotionWrap } from '../hoc';
+import { SectionWrapper } from '../hoc';
 import { technologies } from "../constants";
 
 
@@ -15,4 +15,4 @@ const Tech = () => {
   )
 }
 
-export default SectionWrapper(MotionWrap(Tech, ""));
+export default SectionWrapper(Tech, "");
